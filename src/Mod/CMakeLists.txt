@@ -102,6 +102,10 @@ if(BUILD_FEM)
     add_subdirectory(Fem)
 endif(BUILD_FEM)
 
+if(BUILD_CEM)
+    add_subdirectory(Cem)
+endif(BUILD_CEM)
+
 if(BUILD_SANDBOX)
     add_subdirectory(Sandbox)
 endif(BUILD_SANDBOX)
